@@ -27,7 +27,7 @@ $main-color: #fff;
   background-color: #233148;
   background-image: url("../images/icons/favicon_primary.svg");
   @extend %tplSetBackground; 
-  padding: 90px 0 86px;
+  padding: 90px 0 0;
 
   &__title {
     font-family: "ProximaNovaBlack", sans-serif;
@@ -71,7 +71,7 @@ $main-color: #fff;
       @each $icon in "01", "02", "03", "04" {
 
         &__title_#{$icon}::before {
-          background-image: url('/images/icons/icon_#{$icon}.svg');
+          background-image: url('../images/icons/icon_#{$icon}.svg');
         }
 
       }
@@ -93,7 +93,8 @@ $main-color: #fff;
   @extend %tplSetBackground; 
   background-image: url("../images/arcticle_mobile_bg.png");
   position: relative;
-  padding: 194px 0 88px;
+  padding: 194px 0 82px;
+  margin-top: 58px;
 
   &__img {
     position: absolute;
@@ -131,7 +132,7 @@ $main-color: #fff;
     letter-spacing: 0.02em;
     border-width: 0;
     position: absolute;
-    left: calc((100% - 280px)/2);
+    left: calc((100% - 266px)/2);
     bottom: -26px;
     width: 280px;
     height: 54px;
@@ -216,8 +217,8 @@ $main-color: #fff;
   // PRODUCTS_DESCTOP
   .prodacts {
 
-    
-    padding: 134px 0 86px;
+    position: relative;
+    padding: 134px 0 320px;
 
     &__title {
 
@@ -257,7 +258,10 @@ $main-color: #fff;
   .arcticle {
 
   background-image: url("../images/arcticle_dsctp_bg.png");
-  padding: 66px 0 98px;
+  position: absolute;
+  bottom: -156px;
+  width: 90.694444%; /* 1306px/1440px */
+  padding: 66px 0 98px 134px;
 
     &__block {
       display: flex;
@@ -267,7 +271,7 @@ $main-color: #fff;
     &__img {
       position: absolute;
       top: -74px;
-      right: 90px;
+      right: -24px;
     }
 
     &__title {
@@ -282,7 +286,7 @@ $main-color: #fff;
     }
 
     &__button {
-      left: calc((100% - 280px)/5);
+      left: calc((100% - 390px)/4);
       font-size: 22px;
       font-weight: 800;
       bottom: -38px;
@@ -293,7 +297,7 @@ $main-color: #fff;
 
   // FOOTER_DESCTOP 
   .footer {
-    padding: 168px 0;
+    padding: 324px 0 168px;
 
     &__title {
       font-size: 48px;
