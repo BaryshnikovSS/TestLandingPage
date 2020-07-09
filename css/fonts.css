@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "ProximaNovaBlack";
+    src: url("../fonts/ProximaNovaOpenType/ProximaNova-Black.otf") format("opentype");
+    src: url("../fonts/ProximaNovaOpenType/ProximaNova_woof/ProximaNova-Black.woff") format("woof");
+    src: url("../fonts/ProximaNovaOpenType/ProximaNova_woof/ProximaNova-Black.woff2") format("woof2");
+    src: url("../fonts/ProximaNovaOpenType/ProximaNova_ttf/ProximaNova-Black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ProximaNovaXbold";
+    src: url("../fonts/ProximaNovaOpenType/ProximaNova-Xbold.otf") format("opentype");
+    src: url("../fonts/ProximaNovaOpenType/ProximaNova_woof/ProximaNova-Extrabld.woff") format("woof");
+    src: url("../fonts/ProximaNovaOpenType/ProximaNova_woof/ProximaNova-Extrabld.woff2") format("woof2");
+    src: url("../fonts/ProximaNovaOpenType/ProximaNova_ttf/ProximaNova-Extrabld.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ProximaNovaBold";
+    src: url("../fonts/ProximaNovaOpenType/ProximaNova-Bold.otf") format("opentype");
+    src: url("../fonts/ProximaNovaOpenType/ProximaNova_woof/ProximaNova-Bold.woff") format("woof");
+    src: url("../fonts/ProximaNovaOpenType/ProximaNova_woof/ProximaNova-Bold.woff2") format("woof2");
+    src: url("../fonts/ProximaNovaOpenType/ProximaNova_ttf/ProximaNova-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ProximaNovaLight";
+    src: url("../fonts/ProximaNovaOpenType/ProximaNova-Light.otf") format("opentype");
+    src: url("../fonts/ProximaNovaOpenType/ProximaNova_woof/ProximaNova-Light.woff") format("woof");
+    src: url("../fonts/ProximaNovaOpenType/ProximaNova_woof/ProximaNova-Light.woff2") format("woof2");
+    src: url("../fonts/ProximaNovaOpenType/ProximaNova_ttf/ProximaNova-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ProximaNovaRegular", sans-serif;
+    src: url("../fonts/ProximaNovaOpenType/ProximaNova-Reg.otf") format("opentype");
+    src: url("../fonts/ProximaNovaOpenType/ProximaNova_woof/ProximaNova-Regular.woff") format("woof");
+    src: url("../fonts/ProximaNovaOpenType/ProximaNova_woof/ProximaNova-Regular.woff2") format("woof2");
+    src: url("../fonts/ProximaNovaOpenType/ProximaNova_ttf/ProximaNova-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
