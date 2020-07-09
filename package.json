@@ -1,0 +1,23 @@
+{
+  "name": "TestLandingPage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./js/app.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaryshnikovSS/TestLandingPage.git"
+  },
+  "keywords": [],
+  "author": "Baryshnilov Serhii <baryshnikov.serhii@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BaryshnikovSS/TestLandingPage/issues"
+  },
+  "homepage": "https://github.com/BaryshnikovSS/TestLandingPage#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
