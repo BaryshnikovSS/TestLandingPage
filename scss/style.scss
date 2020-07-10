@@ -10,7 +10,7 @@ $main-color: #fff;
   margin-bottom: 18px;
 }
 
-%tplSetBackground {  
+%tplSetBackground {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,10 +24,11 @@ $main-color: #fff;
 
 // PRODUCTS_MOBILE
 .prodacts {
+  position: relative;
   background-color: #233148;
   background-image: url("../images/icons/favicon_primary.svg");
-  @extend %tplSetBackground; 
-  padding: 90px 0 0;
+  @extend %tplSetBackground;
+  padding: 90px 0 82px;
 
   &__title {
     font-family: "ProximaNovaBlack", sans-serif;
@@ -40,7 +41,7 @@ $main-color: #fff;
 
     &::before {
       @extend %tplSymbol;
-      @extend %tplSetBackground; 
+      @extend %tplSetBackground;
       content: "";
     }
   }
@@ -68,7 +69,10 @@ $main-color: #fff;
         }
       }
 
-      @each $icon in "01", "02", "03", "04" {
+      @each $icon in "01",
+      "02",
+      "03",
+      "04" {
 
         &__title_#{$icon}::before {
           background-image: url('../images/icons/icon_#{$icon}.svg');
@@ -90,11 +94,13 @@ $main-color: #fff;
 // ARCTICLE_MOBILE 
 .arcticle {
 
-  @extend %tplSetBackground; 
+  @extend %tplSetBackground;
   background-image: url("../images/arcticle_mobile_bg.png");
-  position: relative;
+  position: absolute;
+  bottom: -408px;
   padding: 194px 0 82px;
-  margin-top: 58px;
+  width: 100%;
+  min-height: 410px;
 
   &__img {
     position: absolute;
@@ -143,7 +149,7 @@ $main-color: #fff;
 // FOOTER_MOBILE 
 .footer {
 
-  padding: 90px 0;
+  padding: 496px 0 90px;
 
   &__title {
     font-family: "ProximaNovaBlack", sans-serif;
@@ -156,7 +162,7 @@ $main-color: #fff;
 
     &::before {
       @extend %tplSymbol;
-      @extend %tplSetBackground; 
+      @extend %tplSetBackground;
       content: "";
     }
   }
@@ -182,7 +188,8 @@ $main-color: #fff;
       justify-content: center;
 
       &__item {
-        width: 37.606838%; /* 440/1170 */
+        width: 37.606838%;
+        /* 440/1170 */
 
         &:nth-child(2n+1) {
           margin-right: 96px;
@@ -217,7 +224,6 @@ $main-color: #fff;
   // PRODUCTS_DESCTOP
   .prodacts {
 
-    position: relative;
     padding: 134px 0 320px;
 
     &__title {
@@ -257,11 +263,12 @@ $main-color: #fff;
   // ARCTICLE_DESCTOP
   .arcticle {
 
-  background-image: url("../images/arcticle_dsctp_bg.png");
-  position: absolute;
-  bottom: -156px;
-  width: 90.694444%; /* 1306px/1440px */
-  padding: 66px 0 98px 134px;
+    background-image: url("../images/arcticle_dsctp_bg.png");
+    bottom: -156px;
+    width: 90.7%;
+    /* 1306px/1440px */
+    min-height: auto;
+    padding: 66px 0 98px 8.6%;
 
     &__block {
       display: flex;
